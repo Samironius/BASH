@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p $@/dir--{00..10}/dir
+touch $@/dir--{00..10}/file-{00..10}

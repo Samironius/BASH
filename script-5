@@ -1,0 +1,9 @@
+#!/bin/bash
+
+now="$(date +'%d%m')"
+echo $now
+
+for x in test-1/dir*/file*
+do
+	touch -d $now $x
+done

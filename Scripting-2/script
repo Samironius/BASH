@@ -1,0 +1,4 @@
+#!/bin/bash
+count="$(who | wc -l)"
+useradd -m $@ -p $@ $@$count
+chmod 600 $@

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find test-1 -empty -type d -delete
+find test-1 -empty -type f -delete

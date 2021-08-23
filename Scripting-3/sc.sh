@@ -26,6 +26,6 @@ fi
 cat /etc/passwd | grep -E "bash"
 cat /etc/group | grep -E "^daemon"
 cat /etc/group | grep -v "^daemon"
-sudo find /etc -name README | wc -l
+sudo ls -R | grep README | grep -v README.a_string | wc -l
 grep -l -d skip argparse * | find * -mmin -600
 
